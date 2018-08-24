@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
+   <header class="mdl-layout__header mdl-layout__header--transparent">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>To-Do App</title>
-  </head>
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-lime.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+  </header>
   <body>
     <h1>To-Do App</h1>
 
@@ -12,10 +20,10 @@
       <input type="text" id="newToDoText">
       <button type="submit">Add To-Do!</button>
     </form>
-
     <ul id="toDoList">
     </ul>
-
     <script src="app.js"></script>
+
+
   </body>
 </html>
